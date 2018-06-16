@@ -1,0 +1,11 @@
+[package]
+name = "ffi_test"
+version = "0.0.1"
+authors = ["Yuki Miyatake <yuki@murasame-lab.com>"]
+
+[dependencies]
+libc = "*"
+
+[lib]
+name = "rust_ffi"
+crate-type = ["staticlib", "cdylib", "rlib"]
